@@ -3,5 +3,9 @@
 	"scripts": {
 		"test": "jest",
 		"test:solutions": "cross-env TEST_SOLUTIONS=1 jest"
+	},
+	"devDependencies": {
+		"@swc/core": "^1.2.204",
+		"@swc/jest": "^0.2.21"
 	}
 }
